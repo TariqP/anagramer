@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Anagramer - Check Your Anagrams</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- Anagramer Javascript and CSS -->
+        <link rel="stylesheet" href="css/anagramer.min.css">
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav data-spy="affix" id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <a class="navbar-brand" href="#page-top">Anagramer</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main body -->
+        <header>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="large">Are your two strings anagrams? Check below!</p>
+                </div>
+            </div>
+
+            <div class="row huge-top-buffer">
+                <div class="col-lg-4 col-md-4 col-sm-3 col-xs-0"></div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                   <input type="text" class="form-control" id="wordA" placeholder="such wow">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-3 col-xs-0"></div>
+            </div>
+
+            <div class="row top-buffer">
+                <div class="col-lg-4 col-md-4 col-sm-3 col-xs-0"></div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                   <input type="text" class="form-control" id="wordB" placeholder="much cool">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-3 col-xs-0"></div>
+            </div>
+
+            <!-- Check button row -->
+            <div class="row huge-top-buffer">
+                <div class="center-block">
+                    <button type="button" class="btn btn-danger" id="check">Check for Me!</button>
+                </div>
+            </div>
+
+            <!-- Answer row -->
+            <div class="row huge-top-buffer">
+                <div class="center-block">
+                    <p id="answer">Waiting for question...</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- More info on anagram section -->
+        <section>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="large">What is an anagram?</p>                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p>An anagram of a word or phrase is another word or phrase with the exact same letters. Here are some examples:</p>                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul>
+                        <li>Cinema -- Iceman</li>
+                        <li>Anagram -- Nag a ram</li>
+                        <li>The eyes -- they see</li>
+                    </ul>                  
+                </div>
+            </div>
+        </section>
+
+        <!-- Javascript (ideally use DOM-ready event with jQuery) -->
+        <script src="js/anagramer.js"></script>
+
+    </body>
+
+</html>
