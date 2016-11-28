@@ -10,5 +10,7 @@ Tariq Patanam
 
 ## License
 
-MIT Lisence. Work is based off of the following Bootstrap theme which allows for full reuse and modification:
+MIT License. Work is based off of the following Bootstrap theme which allows for full reuse and modification:
 (https://startbootstrap.com/template-overviews/freelancer/)
+
+See license file for more details.
